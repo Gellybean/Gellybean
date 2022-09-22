@@ -95,6 +95,23 @@ usage: /char `mode` `char-name` `game`
 
 
 
+### **-EVALUATE-**
+
+usage: /eval `expr`
+
+-:-
+
+`expr` *required*
+
+ - The expression to evaluate.
+
+#### Remarks
+`/eval` can include `Stats`, `Expressions`, and many different math operators: `+` `-` `*` `/` `>` `<` `==` `!=` `<=` `>=` `%` `()` `=` `+=` `-=` `*=` `/=` `&&` `||` `?:`. There is also a special operator `$` which can coerce a specific bonus from a Stat. Its `+$::` and `-$` usage can add and remove bonuses as well. Use `/mf-help` on the bot for specific examples.
+
+*Note* — Eval returns integer values only. True and false are represented by 1 and 0 respectively. You can use `TRUE` or `FALSE` in any expression
+for readability.
+
+
 
 ### **-INVENTORY-**
 
@@ -118,24 +135,6 @@ usage: /inv `action` `name`
   - `qty` The number of the specified items to remove.
 
 - —`List` List your current inventory.
-
-
-
-### **-EVALUATE-**
-
-usage: /eval `expr`
-
--:-
-
-`expr` *required*
-
- - The expression to evaluate.
-
-#### Remarks
-`/eval` can include `Stats`, `Expressions`, and many different math operators: `+` `-` `*` `/` `>` `<` `==` `!=` `<=` `>=` `%` `()` `=` `+=` `-=` `*=` `/=` `&&` `||` `?:`. There is also a special operator `$` which can coerce a specific bonus from a Stat. Its `+$::` and `-$` usage can add and remove bonuses as well. Use `/mf-help` on the bot for specific examples.
-
-*Note* — Eval returns integer values only. True and false are represented by 1 and 0 respectively. You can use `TRUE` or `FALSE` in any expression
-for readability.
 
 
 
