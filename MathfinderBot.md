@@ -45,6 +45,29 @@ There are other commands than the ones listed below. I've only documented the on
 
 
 
+
+### **-CHARACTER-UPDATE-**
+
+usage: /char-update `sheet-type` `file`
+
+-:-
+
+`sheet-type` *required*
+
+ - —`Pathbuilder` Pathbuilder PDF export.
+
+ - —`HeroLabs` HeroLabs XML export.
+
+ - —`PCGen` Export using the `csheet_fantasy_rpgwebprofiler.xml` option.
+
+
+`file` *required*
+
+ - The file to use.
+
+
+
+
 ### **-CHARACTER-**
 
 usage: /char `mode` `char-name` `game`
@@ -71,25 +94,6 @@ usage: /char `mode` `char-name` `game`
 
 
 
-
-### **-CHARACTER-UPDATE-**
-
-usage: /char-update `sheet-type` `file`
-
--:-
-
-`sheet-type` *required*
-
- - —`Pathbuilder` Pathbuilder PDF export.
-
- - —`HeroLabs` HeroLabs XML export.
-
- - —`PCGen` Export using the `csheet_fantasy_rpgwebprofiler.xml` option.
-
-
-`file` *required*
-
- - The file to use.
 
 
 ### **-INVENTORY-**
@@ -133,6 +137,23 @@ usage: /eval `expr`
 *Note* — Eval returns integer values only. True and false are represented by 1 and 0 respectively. You can use `TRUE` or `FALSE` in any expression
 for readability.
 
+
+
+### **-MODIFIER-**
+
+usage: /mod `action` `mod-name`
+
+-:-
+
+`action` *required*
+
+ - —`Add` Add the following mod-name.
+ - —`Remove` Remove the following mod-name.
+
+`mod-name` Name of the modifier (use /var List-Mods for a coomprehensive list).
+
+#### Remarks
+This command will add or remove a modifier to your current character. Some modifiers contain sub-options, such as `BEAST_SHAPE` or any spell that scales with caster level. These options generally appear as buttons.
 
 
 
