@@ -43,6 +43,8 @@ These files can be uploaded to update any created character. There are known lim
 ## Commands
 There are other commands than the ones listed below. I've only documented the ones I feel are worth using/testing at the moment. There are also `dm` versions of some commands, which add an additional `target` option for selecting other player's active sheets. These require the `DM` role.
 
+
+
 ### **-CHARACTER-**
 
 usage: /char `mode` `char-name` `game`
@@ -68,6 +70,8 @@ usage: /char `mode` `char-name` `game`
    - `char-name` The name of the character to delete. This will pop-up a window to confirm your selection.
 
 
+
+
 ### **-CHARACTER-UPDATE-**
 
 usage: /char-update `sheet-type` `file`
@@ -88,6 +92,31 @@ usage: /char-update `sheet-type` `file`
  - The file to use.
 
 
+### **-INVENTORY-**
+
+usage: /inv `action` `name`
+
+-:-
+
+`action` *required*
+
+- —`Add` Add one or many items to your active character's inventory. Leave all other fields blank to bring up a window where you can input a list of items.
+  - `item` *optional* The syntax for adding an item is `NAME:WEIGHT:VALUE`. For example `Sword:5:10` would add a Sword of 5 weight and a value of 10. Only name is required.
+  - `qty` *optional.* How many to add. Default is 1.
+
+- —`Import` Import a list of items. CAUTION—This will **REPLACE** any existing list. If you want to add many items, use the `Add` action. You can copy/paste your text file into the subsequent modal.
+  - `attachment` A text file containing one item per line.
+
+- —`Export` Export the current list to a text file.
+
+- —`Remove` Remove an item from your list.
+  - `item` The name or index number of the item. If a name is given, it will remove the first occurence any matched value.
+  - `qty` The number of the specified items to remove.
+
+- —`List` List your current inventory.
+
+
+
 ### **-EVALUATE-**
 
 usage: /eval `expr`
@@ -103,6 +132,9 @@ usage: /eval `expr`
 
 *Note* — Eval returns integer values only. True and false are represented by 1 and 0 respectively. You can use `TRUE` or `FALSE` in any expression
 for readability.
+
+
+
 
 ### **-VAR-**
 
@@ -147,6 +179,8 @@ usage: /var `action` `var-name` `value`
    - `var-name` The variable name to remove.
 
 
+
+
 ### **-PRESET-WEAPON-**
 
 usage: /preset-weapon `number-or-name` `hit-mod` `damage-mod` `hit-bonus` `dmg-bonus` `size`
@@ -174,6 +208,9 @@ usage: /preset-weapon `number-or-name` `hit-mod` `damage-mod` `hit-bonus` `dmg-b
 #### Remarks
 This will generate an expression row (buttons) based on a selected preset (Use `/var` `List-Presets` to see your options). You can use `/preset-save` with a `name` to save the last generated preset to your active character sheet.
 
+
+
+
 ### **-SHAPE-**
 
 usage: /shape `number-or-name` `hit-mod`
@@ -188,27 +225,3 @@ usage: /shape `number-or-name` `hit-mod`
  
 #### Remarks
 `/shape` is meant to be used in-tandem with a polymorph `/mod`, such as `BEAST_SHAPE`. This will generate the attacks (primary and/or secondary) and natural weapons associated with a particular creature's shape. In addition, it will list any speeds, senses, or special abilities you may receive from taking the creature's shape. Be sure to follow the particular spell's allowances, as many creatures are listed with their maximum possible features.
-
-
-### **-INVENTORY-**
-
-usage: /inv `action` `name`
-
--:-
-
-`action` *required*
-
-- —`Add` Add one or many items to your active character's inventory. Leave all other fields blank to bring up a window where you can input a list of items.
-  - `item` *optional* The syntax for adding an item is `NAME:WEIGHT:VALUE`. For example `Sword:5:10` would add a Sword of 5 weight and a value of 10. Only name is required.
-  - `qty` *optional.* How many to add. Default is 1.
-
-- —`Import` Import a list of items. CAUTION—This will **REPLACE** any existing list. If you want to add many items, use the `Add` action. You can copy/paste your text file into the subsequent modal.
-  - `attachment` A text file containing one item per line.
-
-- —`Export` Export the current list to a text file.
-
-- —`Remove` Remove an item from your list.
-  - `item` The name or index number of the item. If a name is given, it will remove the first occurence any matched value.
-  - `qty` The number of the specified items to remove.
-
-- —`List` List your current inventory.
