@@ -55,28 +55,6 @@ There are other commands than the ones listed below. I've only documented the on
 
 
 
-### **-CHARACTER-UPDATE-**
-
-usage: /char-update `sheet-type` `file`
-
--:-
-
-`sheet-type` *required*
-
- - —`Pathbuilder` Pathbuilder PDF export.
-
- - —`HeroLabs` HeroLabs XML export.
-
- - —`PCGen` Export using the `csheet_fantasy_rpgwebprofiler.xml` option.
-
-
-`file` *required*
-
- - The file to use.
-
-
-
-
 ### **-CHARACTER-**
 
 usage: /char `mode` `char-name` `game`
@@ -100,6 +78,30 @@ usage: /char `mode` `char-name` `game`
 
  - —`Delete` Any character name listed in char-name will be deleted. It will prompt you to confirm this deletion.
    - `char-name` The name of the character to delete. This will pop-up a window to confirm your selection.
+
+
+
+
+
+### **-CHARACTER-UPDATE-**
+
+usage: /char-update `sheet-type` `file`
+
+-:-
+
+`sheet-type` *required*
+
+ - —`Pathbuilder` Pathbuilder PDF export.
+
+ - —`HeroLabs` HeroLabs XML export.
+
+ - —`PCGen` Export using the `csheet_fantasy_rpgwebprofiler.xml` option.
+
+
+`file` *required*
+
+ - The file to use.
+
 
 
 
