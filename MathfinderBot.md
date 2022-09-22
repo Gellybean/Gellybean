@@ -67,7 +67,7 @@ usage: /char `mode` `char-name` `game`
    
    - `char-name` The name of the character to set.
 
- - —`New` Create a new character.
+ - —`New` Create a new character. This is a required step before importing any character sheet from any third-party app.
    
    - `char-name` The name of the character to create.
    - `game` *optional & not recommended.* The selected game to use. The default is Pathfinder. Any other option is purely experimental.
@@ -78,7 +78,6 @@ usage: /char `mode` `char-name` `game`
 
  - —`Delete` Any character name listed in char-name will be deleted. It will prompt you to confirm this deletion.
    - `char-name` The name of the character to delete. This will pop-up a window to confirm your selection.
-
 
 
 
@@ -102,7 +101,8 @@ usage: /char-update `sheet-type` `file`
 
  - The file to use.
 
-
+#### Remark
+This feature is meant to "update" your character at each level (or whenever you feel like it) by importing a character sheet. It should not remove any custom made stats or expressions, but it *will* override any default variables with ones from the sheet.
 
 
 
