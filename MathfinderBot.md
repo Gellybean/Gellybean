@@ -31,7 +31,7 @@ For usability, stats and expressions share a pool of variable names.
 ## Rows & Grids
 While you can call stats and expressions individually, the idea is to use some of Discords UI features as an interface to your sheet. This is where Expression Rows come into play.
 
-`Rows` are sets of buttons that represent expressions. These can simply call an already-made expression on your character sheet. Just as well, they can be unique to the expression row. This is useful when representing something like a weapon's attack and damage values. You can create your own rows from scratch using `/var Set-Row`, or they can be saved from a preset (look up /preset-weapon for more info). use the `/row` command to call any created rows.
+`Rows` are sets of buttons that represent expressions. These can call any value from your sheet or be entirely unique. This is useful when representing something like a weapon's attack and damage values. You can create your own rows from scratch using `/var Set-Row`, or they can be saved from a preset (look up /preset-weapon for more info). use the `/row` command to call any created rows.
 
 `Grids` are sets of expression rows. Up to 5 rows can be called in this manner per command, creating an (up to) 5x5 grid of buttons. Use `/var Set-Grid` to create a grid using expression row names. Use `/grid` to call any created grids.
 
