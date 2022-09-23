@@ -184,7 +184,7 @@ usage: /inv `action` `item` `qty` `attachment`
 
 ### **-MODIFIER-**
 
-usage: /mod `action` `mod-name`
+usage: /mod `action` `mod-name` `target`
 
 -:-
 
@@ -194,6 +194,8 @@ usage: /mod `action` `mod-name`
  - —`Remove` Remove the following mod-name.
 
 `mod-name` Name of the modifier (use /var List-Mods for a coomprehensive list).
+
+`target` target or targets using @mentions.
 
 ![mod0](https://user-images.githubusercontent.com/10622391/192043634-72ca55d6-5a9d-4936-8356-7eedff008113.jpg)
 
