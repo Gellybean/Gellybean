@@ -221,7 +221,7 @@ usage: /var `action` `var-name` `value`
 
 ![preset-1](https://user-images.githubusercontent.com/10622391/192030478-d6cef765-c511-413e-834a-0df05259fcc3.jpg)
 
-![preset-2](https://user-images.githubusercontent.com/10622391/192030492-c8b5589a-ae0e-4248-af40-3742c7808843.jpg)
+![preset-2](https://user-images.githubusercontent.com/10622391/192030805-9971520e-2886-4b47-b7f0-38eb652e402e.jpg)
 
 
 
