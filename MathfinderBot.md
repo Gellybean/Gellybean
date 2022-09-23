@@ -180,7 +180,7 @@ usage: /var `action` `var-name` `value`
    - `value` Expression to create. 
 
  - —`Set-Row` 
-   - `var-name` Row name. This will bring up a modal window, where you can make up to 5 expressions.
+   - `var-name` Row name. This will bring up a modal window, where you can make up to 5 expressions. The syntax is `LABEL:EXPRESSION`. The label is optional—if omitted it will use the expression as the label.
 
  - —`Set-Grid`
    - `var-name` Grid name. The same as Set-Row except you can specify a set of rows.
