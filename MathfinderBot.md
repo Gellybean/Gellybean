@@ -50,7 +50,7 @@ While you can setup a character from scratch (manually setting each value), this
 These files can be uploaded to update any created character. There are known limitation when parsing specifical sheets. For instance, not all bonus-types may be known for a given stat, and cannot be applied accurately, but the totals should remain correct. This can affect the proper calculation of stacking bonuses. I do my best!
 
 
-## Commands
+## Command Reference
 There are other commands than the ones listed below. I've only documented the ones I feel are worth using/testing at the moment. There are also `dm` versions of some commands, which add an additional `target` option for selecting other player's active sheets. These require the `DM` role.
 
 
