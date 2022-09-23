@@ -50,7 +50,7 @@ While you can setup a character by manually setting each value, this is not idea
  - Using the exported PDF
 
 
-These files can be uploaded to update any created character. There are known limitation when parsing specifical sheets. For instance, not all bonus-types may be known for a given stat, and cannot be applied accurately, but the totals should remain correct. This can affect the proper calculation of stacking bonuses. I do my best!
+These files can be uploaded to update any created character. There are specific limitation when parsing some sheets. For instance, not all bonus-types may be known for a given stat, and cannot be applied accurately, but the totals should remain correct. This can affect the proper calculation of stacking bonuses. I do my best!
 
 
 ## Command Reference
