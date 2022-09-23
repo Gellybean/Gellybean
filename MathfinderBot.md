@@ -23,7 +23,7 @@ Statblocks contain two primary values: Stats and Expressions.
 
 Each `Stat` contains a base value, as well as a list of bonuses. Each `Bonus` contains a value, a name, and a bonus-type. Together, these are used to accurately calculate the total of any Stat when one or many bonuses are applied. (Stacking rules are based on PF1e).
 
-`Expressions` are formulae. These can represent anything from a contant number to an expression of expressions including any number of stats. 
+`Expressions` are formulae. These can represent anything from a constant number to an expression of expressions including any number of stats. 
 
 For usability, stats and expressions share a pool of variable names
 
