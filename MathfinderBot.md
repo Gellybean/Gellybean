@@ -256,7 +256,7 @@ usage: /preset-weapon `number-or-name` `hit-mod` `damage-mod` `hit-bonus` `dmg-b
 
 
 #### Remarks
-This will generate an expression row (buttons) based on a selected preset (Use `/var` `List-Presets` to see your options). You can use `/preset-save` with a `name` to save the last generated preset to your active character sheet.
+Use `/var` `List-Presets` to see your options. You can use `/preset-save` with a `name` to save the last generated preset to your active character sheet. You can then call it with /row.
 
 
 
