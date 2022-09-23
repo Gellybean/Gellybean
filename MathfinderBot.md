@@ -137,6 +137,8 @@ usage: /eval `expr`
 #### Remarks
 `/eval` supports many different math operators: `+` `-` `*` `/` `>` `<` `==` `!=` `<=` `>=` `%` `()` `=` `+=` `-=` `*=` `/=` `&&` `||` `?:`. Use `/mf-help` on the bot for specific examples.
 
+Dice expressions are also supported within any formula. `1d20` is a valid expression. You can also use rerolls and multipliers. `3d6r1` would "roll" 3 six-sided die, rerolling any dice that come up 1. `(3d6*2)` would effectively turn into `6d6`.
+
 Assignment operators (`=`, `+=`, etc) can be used to change the current **base** value of any Stat. To view the base value (separated from any bonuses), you can evaluate a stat's name prefixed with an `@` operator. 
 
 To modify bonus values instead, you can use the special `$` operator. Adding a specific bonus to any stat can be done as follows: `STATNAME +$ NAME:TYPE:VALUE`. A name and type are required for determining which bonuses stack. Types can be represented by numbers or names (7 and ENHANCEMENT are identical). To remove a bonus from a stat, you can do: `STATNAME -$ NAME`. This will effectively remove all bonuses with that name from the stat. You can view a specific bonus by doing: `STATNAME $ TYPE`. You can also use /var List-Bonuses to see all bonuses applied to all stats.
