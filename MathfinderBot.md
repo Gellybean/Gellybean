@@ -170,6 +170,8 @@ usage: /inv `action` `item` `qty` `attachment`
   - `item` The name or index number of the item. If a name is given, it will remove the first occurence any matched value.
   - `qty` The number of the specified items to remove.
 
+![inv](https://user-images.githubusercontent.com/10622391/192052270-6623db24-1040-4316-a250-fcfa20adec87.jpg)
+
 - —`List` List your current inventory.
 
 
