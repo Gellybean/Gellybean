@@ -9,7 +9,7 @@ Mathfinder is a Discord bot built as a stat-tracker for Pathfinder 1e. Its featu
 - Ability to turn formulae into buttons which you can call in rows and grids for easy access.
 - Basic inventory management.
 - Tools for DMs, including the ability to evaluate character sheets, secrets rolls, initiative tracking.
-- Makes your pathfinder experience more convoluted than ever!
+- Making your pathfinder experience more convoluted than ever!
 
 
 There are many help options built into the bot using the `/mf-help` command. These include examples on how to use particular commands. I will do my best to update both the documents located here and on the bot.
