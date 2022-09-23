@@ -217,17 +217,6 @@ usage: /var `action` `var-name` `value`
 
 ### **-PRESET-WEAPON-**
 
-![preset](https://user-images.githubusercontent.com/10622391/192030455-2149b615-ea3f-4663-b55d-5d8a56846b8f.jpg)
-
-![preset-1](https://user-images.githubusercontent.com/10622391/192030478-d6cef765-c511-413e-834a-0df05259fcc3.jpg)
-
-![preset-2](https://user-images.githubusercontent.com/10622391/192030805-9971520e-2886-4b47-b7f0-38eb652e402e.jpg)
-
-
-
-
-
-
 usage: /preset-weapon `number-or-name` `hit-mod` `damage-mod` `hit-bonus` `dmg-bonus` `size`
 
 -:-
@@ -249,6 +238,14 @@ usage: /preset-weapon `number-or-name` `hit-mod` `damage-mod` `hit-bonus` `dmg-b
 
 `size`
  - The size of the character. If left blank, it will check the character's Stackblock for size. If none is found, it will default to medium.
+
+
+![preset](https://user-images.githubusercontent.com/10622391/192030455-2149b615-ea3f-4663-b55d-5d8a56846b8f.jpg)
+
+![preset-1](https://user-images.githubusercontent.com/10622391/192030478-d6cef765-c511-413e-834a-0df05259fcc3.jpg)
+
+![preset-2](https://user-images.githubusercontent.com/10622391/192030805-9971520e-2886-4b47-b7f0-38eb652e402e.jpg)
+
 
 #### Remarks
 This will generate an expression row (buttons) based on a selected preset (Use `/var` `List-Presets` to see your options). You can use `/preset-save` with a `name` to save the last generated preset to your active character sheet.
