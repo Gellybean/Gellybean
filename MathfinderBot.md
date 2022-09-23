@@ -227,7 +227,7 @@ usage: /var `action` `var-name` `value`
    - `var-name` Row name. This will bring up a modal window, where you can make up to 5 expressions. The syntax is `LABEL:EXPRESSION`. The label is optional—if omitted it will use the expression as the label.
 
  - —`Set-Grid`
-   - `var-name` Grid name. The same as Set-Row except you can specify a set of rows.
+   - `var-name` Grid name. The same as Set-Row except you can specify rows instead of expressions.
 
  - —`Set-Craft` (EXPERIMENTAL) This lets you set a craft a mundane item. 
    - `var-name` Item name. 
