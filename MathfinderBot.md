@@ -131,7 +131,7 @@ usage: /eval `expr`
 
 ![eval2](https://user-images.githubusercontent.com/10622391/192032806-774d28bd-acf2-4908-b413-3dcfa75fe8ec.jpg)
 
-What is my life?
+This is Pathfinder, you guys. I love it.
 
 ![wtf](https://user-images.githubusercontent.com/10622391/192057007-8601126b-b0b0-489b-bcb1-7fd81ced099b.jpg)
 
