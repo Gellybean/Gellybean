@@ -64,6 +64,9 @@ usage: /char `mode` `char-name` `game`
 
 -:-
 
+![char](https://user-images.githubusercontent.com/10622391/192044180-e25c1784-b76b-40a7-be83-5a4ec68fc2e4.jpg)
+
+
 `mode` *required*
 
  - —`Set` Set an active character.
