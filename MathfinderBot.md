@@ -25,7 +25,7 @@ Each `Stat` contains a base value, as well as a list of bonuses. Each `Bonus` co
 
 `Expressions` are formulae. These can represent anything from a constant number to an expression of expressions including any number of stats. 
 
-For usability, stats and expressions share a pool of variable names
+For usability, stats and expressions share a pool of variable names.
 
 *NOTE* — The Pathfinder default character sheet contains a number of both stats and expressions that represent the values you would find on any standard character sheet. Other than class-specific features, you should find the majority of what you need; the goal is to have a feature-complete statblock, while offering the freedom for anyone to customize it how they choose.
 
