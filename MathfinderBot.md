@@ -116,6 +116,12 @@ usage: /eval `expr`
 
  - The expression to evaluate.
 
+![eval0](https://user-images.githubusercontent.com/10622391/192032624-f0e56353-731d-4b15-9827-606ee703b1a8.jpg)
+
+![eval2](https://user-images.githubusercontent.com/10622391/192032642-c510a4bb-ec94-4015-8225-b19fe3ddd3e5.jpg)
+
+
+
 #### Remarks
 `/eval` supports many different math operators: `+` `-` `*` `/` `>` `<` `==` `!=` `<=` `>=` `%` `()` `=` `+=` `-=` `*=` `/=` `&&` `||` `?:`. Use `/mf-help` on the bot for specific examples.
 
