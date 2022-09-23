@@ -147,6 +147,8 @@ Dice expressions are also supported within any formula. `1d20` is a valid expres
 
 Assignment operators (`=`, `+=`, etc) can be used to change the current **base** value of any Stat. The `@` prefix will let you view or utilize the base value of any stat (no bonuses applied).
 
+![bonus](https://user-images.githubusercontent.com/10622391/192063905-989523bc-14ef-4d21-b185-c0e1d84ee1f4.jpg)
+
 To modify bonus values instead, you can use the special `$` operator. Adding a specific bonus to any stat can be done as follows: `STATNAME +$ NAME:TYPE:VALUE`. A name and type are required for determining which bonuses stack. Types can be represented by numbers or names (7 and ENHANCEMENT are identical). To remove a bonus from a stat, you can do: `STATNAME -$ NAME`. This will effectively remove all bonuses with that name from the stat. You can view a specific bonus by doing: `STATNAME $ TYPE`. You can also use /var List-Bonuses to see all bonuses applied to all stats.
 
 ![types](https://user-images.githubusercontent.com/10622391/192049011-451e78d3-b0db-429c-a74b-75b5fa0f6817.jpg)
