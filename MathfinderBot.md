@@ -137,7 +137,7 @@ usage: /eval `expr`
 #### Remarks
 `/eval` supports many different math operators: `+` `-` `*` `/` `>` `<` `==` `!=` `<=` `>=` `%` `()` `=` `+=` `-=` `*=` `/=` `&&` `||` `?:`. Use `/mf-help` on the bot for specific examples.
 
-Dice expressions are also supported within any formula. `1d20` is a valid expression. You can also use rerolls and multipliers. `3d6r1` would "roll" 3 six-sided die, rerolling any dice that come up 1. `(3d6*2)` would effectively turn into `6d6`.
+Dice expressions are also supported within any formula. `1d20` is a valid expression. You can also use rerolls and multipliers. `3d6r1` would "roll" 3 six-sided die, rerolling any dice that come up 1 (the initial roll only). `(3d6*2)` would effectively turn into `6d6`.
 
 Assignment operators (`=`, `+=`, etc) can be used to change the current **base** value of any Stat. The `@` prefix will let you view or utilize the base value of any stat (no bonuses applied).
 
