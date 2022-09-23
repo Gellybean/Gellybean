@@ -308,3 +308,6 @@ usage: /shape `number-or-name` `hit-mod`
  
 #### Remarks
 `/shape` is meant to be used in-tandem with a polymorph `/mod`, such as `BEAST_SHAPE`. This will generate the attacks (primary and/or secondary) and natural weapons associated with a particular creature's shape. In addition, it will list any speeds, senses, or special abilities you may receive from taking the creature's shape. Be sure to follow the particular spell's allowances, as many creatures are listed with their maximum possible features.
+
+
+![shape](https://user-images.githubusercontent.com/10622391/192065023-eabbb821-c0a3-48dd-b765-2ed544807314.jpg)
