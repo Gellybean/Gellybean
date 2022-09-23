@@ -217,11 +217,15 @@ usage: /var `action` `var-name` `value`
 
 ### **-PRESET-WEAPON-**
 
-![preset](https://user-images.githubusercontent.com/10622391/192029742-7acf7221-c2e3-4654-b933-b5d92aab52d7.jpg)
+![preset](https://user-images.githubusercontent.com/10622391/192030455-2149b615-ea3f-4663-b55d-5d8a56846b8f.jpg)
 
-![preset-1](https://user-images.githubusercontent.com/10622391/192029767-42a5dec0-e731-42e8-8142-d3c0f01429ff.jpg)
+![preset-1](https://user-images.githubusercontent.com/10622391/192030478-d6cef765-c511-413e-834a-0df05259fcc3.jpg)
 
-![preset-2](https://user-images.githubusercontent.com/10622391/192029807-814c651f-3712-4023-8f4b-c73cf181ec9a.jpg)
+![preset-2](https://user-images.githubusercontent.com/10622391/192030492-c8b5589a-ae0e-4248-af40-3742c7808843.jpg)
+
+
+
+
 
 
 usage: /preset-weapon `number-or-name` `hit-mod` `damage-mod` `hit-bonus` `dmg-bonus` `size`
