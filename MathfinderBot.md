@@ -37,7 +37,7 @@ For usability, stats and expressions share a pool of variable names
 
 
 ## Character Sheet Imports
-While you can setup a character from scratch (manually setting each value), this is not ideal. Mathfinder currently supports three different options for character imports, so that you can update your character at each level.
+While you can setup a character by manually setting each value, this is not ideal. Mathfinder currently supports three different options for character imports, so that you can update your character at each level.
 
 ### PCGen
  - Using the export option `csheet_fantasy_rpgwebprofiler.xml`. Tested with v6.09.05.
