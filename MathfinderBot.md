@@ -30,7 +30,7 @@ For usability, stats and expressions share a pool of variable names.
 
 
 ## Rows & Grids
-You can /eval stats and expressions individually, but the idea is to use Discords UI features as an interface to your sheet. This is where `Expression Rows` come into play.
+You can `/eval` stats and expressions individually, but the idea is to use Discords UI features as an interface to your sheet. This is where `Expression Rows` come into play.
 
 These `Rows` are sets of buttons. These can call any value from your sheet or be entirely unique. This is useful when representing something like a weapon's attack and damage values. You can create your own rows from scratch using `/var Set-Row`, or they can be saved from a preset (look up /preset-weapon for more info). use the `/row` command to call any created rows.
 
