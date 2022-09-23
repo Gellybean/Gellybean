@@ -25,8 +25,7 @@ Each `Stat` contains a base value, as well as a list of bonuses. Each `Bonus` co
 
 `Expressions` are formulae. These can represent anything from a contant number to an expression of expressions including any number of stats. 
 
-While different in their application, Stats and Expressions share a pool of variable names. 
-
+*Note* — For usability, stats and expressions share a pool of variable names.
 
 ## Rows & Grids
 `Rows` are sets of buttons that represent expressions. These can be created from scratch or saved from presets. Use `/row` to call.
