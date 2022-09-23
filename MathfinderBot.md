@@ -117,10 +117,9 @@ usage: /eval `expr`
  - The expression to evaluate.
 
 #### Remarks
-`/eval` can include `Stats`, `Expressions`, and many different math operators: `+` `-` `*` `/` `>` `<` `==` `!=` `<=` `>=` `%` `()` `=` `+=` `-=` `*=` `/=` `&&` `||` `?:`. There is also a special operator `$` which can coerce a specific bonus from a Stat. Its `+$::` and `-$` usage can add and remove bonuses as well. Use `/mf-help` on the bot for specific examples.
+`/eval` suppoers many different math operators: `+` `-` `*` `/` `>` `<` `==` `!=` `<=` `>=` `%` `()` `=` `+=` `-=` `*=` `/=` `&&` `||` `?:`. There is also a special operator `$` which can coerce a specific bonus from a Stat. Its `+$::` and `-$` usage can add and remove bonuses as well. Use `/mf-help` on the bot for specific examples.
 
-*Note* — Eval returns integer values only. True and false are represented by 1 and 0 respectively. You can use `TRUE` or `FALSE` in any expression
-for readability.
+*Note* — Eval returns integer values only. True and false are represented by 1 and 0 respectively. `TRUE`/`FALSE` are hardcoded variables that can be used for readability.
 
 
 
