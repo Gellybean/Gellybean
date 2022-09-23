@@ -111,7 +111,7 @@ usage: /char-update `sheet-type` `file`
 
 
 #### Remarks
-This feature is meant to "update" your character at each level (or whenever you feel like it) by importing a character sheet. It should not remove any custom made stats or expressions, but it *will* override any default variables with ones from the sheet.
+This feature is meant to update your character at each level (or whenever you feel like it) by importing a character sheet from a program more suited for character advancement. It should not remove any custom made stats or expressions, but it *will* override any default variables with ones from the sheet.
 
 
 
