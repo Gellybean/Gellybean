@@ -126,7 +126,11 @@ usage: /eval `expr`
 
  - The expression to evaluate.
 
+cool?
+
 ![eval0](https://user-images.githubusercontent.com/10622391/192032624-f0e56353-731d-4b15-9827-606ee703b1a8.jpg)
+
+makes sense
 
 ![eval1](https://user-images.githubusercontent.com/10622391/192047953-34581fa4-bf82-4986-93d7-20138f92f437.jpg)
 
