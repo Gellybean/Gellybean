@@ -104,6 +104,9 @@ usage: /char-update `sheet-type` `file`
 
  - The file to use.
 
+![update](https://user-images.githubusercontent.com/10622391/192043907-a72d879d-9fed-42ce-a0df-050e60af9862.jpg)
+
+
 #### Remarks
 This feature is meant to "update" your character at each level (or whenever you feel like it) by importing a character sheet. It should not remove any custom made stats or expressions, but it *will* override any default variables with ones from the sheet.
 
