@@ -147,7 +147,7 @@ To modify bonus values instead, you can use the special `$` operator. Adding a s
 
 The `BASE` type is a special bonus that overrides all other values, including the original base value.
 
-*Note* — `/eval` returns integer values only. This comes with some limitations in how evaluations are performed. For example, true and false are represented by 1 and 0 respectively. `TRUE`/`FALSE` are hardcoded variables that can be used for readability.
+*Note* — `/eval` returns integer values only. This comes with some limitations in how evaluations are performed. For example, true and false are represented by 1 and 0 respectively. `TRUE`/`FALSE` are hardcoded variables that can be used for readability. This also applies to all bonus types and their respective numbers.
 
 
 
