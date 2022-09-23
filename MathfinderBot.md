@@ -117,7 +117,11 @@ usage: /eval `expr`
  - The expression to evaluate.
 
 #### Remarks
-`/eval` supports many different math operators: `+` `-` `*` `/` `>` `<` `==` `!=` `<=` `>=` `%` `()` `=` `+=` `-=` `*=` `/=` `&&` `||` `?:`. There is also a special operator `$` which can coerce a specific bonus from a Stat. Its `+$::` and `-$` usage can add and remove bonuses as well. Use `/mf-help` on the bot for specific examples.
+`/eval` supports many different math operators: `+` `-` `*` `/` `>` `<` `==` `!=` `<=` `>=` `%` `()` `=` `+=` `-=` `*=` `/=` `&&` `||` `?:`. Use `/mf-help` on the bot for specific examples.
+
+Assignment operators (`=`, `+=`, etc) can be used to change the current **base** value of any Stat. To view the base value (separated from any bonuses), you can evaluate a stat's name prefixed with an `@` operator. 
+
+To modify bonus values instead, you can use the special `$` operator. Adding a specific bonus to any stat can be done as follows: `STATNAME +$ NAME:TYPE:VALUE`. A name and type are required for determining which bonuses stack. Types can be represented by numbers or names (7 and ENHANCEMENT are identical). To remove a bonus from a stat, you can do: `STATNAME -$ NAME`. This will effectively remove all bonuses with that name from the stat. You can view a specific bonus by doing: `STATNAME $ TYPE`. You can also use /var List-Bonuses to see all bonuses applied to all stats.
 
 *Note* — Eval returns integer values only. True and false are represented by 1 and 0 respectively. `TRUE`/`FALSE` are hardcoded variables that can be used for readability.
 
