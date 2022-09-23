@@ -141,9 +141,11 @@ Assignment operators (`=`, `+=`, etc) can be used to change the current **base**
 
 To modify bonus values instead, you can use the special `$` operator. Adding a specific bonus to any stat can be done as follows: `STATNAME +$ NAME:TYPE:VALUE`. A name and type are required for determining which bonuses stack. Types can be represented by numbers or names (7 and ENHANCEMENT are identical). To remove a bonus from a stat, you can do: `STATNAME -$ NAME`. This will effectively remove all bonuses with that name from the stat. You can view a specific bonus by doing: `STATNAME $ TYPE`. You can also use /var List-Bonuses to see all bonuses applied to all stats.
 
-![types](https://user-images.githubusercontent.com/10622391/192048712-e018e352-2cfc-42b9-98e5-6e1900e4c070.jpg)
+![types](https://user-images.githubusercontent.com/10622391/192049011-451e78d3-b0db-429c-a74b-75b5fa0f6817.jpg)
 
-*Note* — /eval returns integer values only. This comes with some limitations in how evaluations are performed. For example, true and false are represented by 1 and 0 respectively. `TRUE`/`FALSE` are hardcoded variables that can be used for readability.
+The `BASE` type is a special bonus that overrides all other values, including the original base value.
+
+*Note* — `/eval` returns integer values only. This comes with some limitations in how evaluations are performed. For example, true and false are represented by 1 and 0 respectively. `TRUE`/`FALSE` are hardcoded variables that can be used for readability.
 
 
 
