@@ -153,7 +153,7 @@ To modify bonus values instead, you can use the special `$` operator. Adding a s
 
 ![types](https://user-images.githubusercontent.com/10622391/192049011-451e78d3-b0db-429c-a74b-75b5fa0f6817.jpg)
 
-The `BASE` type is a special bonus that overrides all other values, including the original base value. This is useful for certain modifiers such as *feeblemind*, where you need to set a score to a specific value regardless of its current value.
+The `BASE` type is a special bonus that overrides all other values, including the original base value. This is useful for certain modifiers such as size mods or spells like *feeblemind*, where you need to set a score to a specific value regardless of its current value.
 
 *NOTE* — `/eval` returns integer values only. This comes with some limitations in how evaluations are performed. For example, true and false are represented by 1 and 0 respectively. `TRUE`/`FALSE` are hardcoded variables that can be used for readability. This also applies to all bonus types and their respective numbers.
 
