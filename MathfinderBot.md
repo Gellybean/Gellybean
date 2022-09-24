@@ -68,7 +68,7 @@ usage: /char `mode` `char-name` `game`
 ![char](https://user-images.githubusercontent.com/10622391/192044180-e25c1784-b76b-40a7-be83-5a4ec68fc2e4.jpg)
 
 
-`mode` *required*
+`mode`
 
  - —`Set` Set an active character.
    
@@ -95,7 +95,7 @@ usage: /char-update `sheet-type` `file`
 
 -:-
 
-`sheet-type` *required*
+`sheet-type`
 
  - —`Pathbuilder` Pathbuilder PDF export.
 
@@ -104,7 +104,7 @@ usage: /char-update `sheet-type` `file`
  - —`PCGen` Export using the `csheet_fantasy_rpgwebprofiler.xml` option.
 
 
-`file` *required*
+`file`
 
  - The file to use.
 
@@ -122,7 +122,7 @@ usage: /eval `expr`
 
 -:-
 
-`expr` *required*
+`expr`
 
  - The expression to evaluate.
 
@@ -171,7 +171,7 @@ usage: /inv `action` `item` `qty` `attachment`
 
 ![inv](https://user-images.githubusercontent.com/10622391/192052270-6623db24-1040-4316-a250-fcfa20adec87.jpg)
 
-`action` *required*
+`action`
 
 - —`Add` Add one or many items to your active character's inventory. Leave all other fields blank to bring up a window where you can input a list of items.
   - `item` *optional* The syntax for adding an item is `NAME:WEIGHT:VALUE`. For example, `Sword:5:10` would add a Sword of 5 weight and a value of 10. Only name is required.
@@ -196,7 +196,7 @@ usage: /mod `action` `mod-name` `target`
 
 -:-
 
-`action` *required*
+`action`
 
  - —`Add` Add the following mod-name.
  - —`Remove` Remove the following mod-name.
@@ -221,7 +221,7 @@ usage: /var `action` `var-name` `value`
 
 -:-
 
-`action` *required*
+`action`
 
 stats
 
@@ -275,10 +275,10 @@ usage: /preset-weapon `number-or-name` `hit-mod` `damage-mod` `hit-bonus` `dmg-b
 
 -:-
 
-`number-or-name` *required*
+`number-or-name`
  - The name or index number associated with it (use /var List-Presets to see a comprehensive list).
 
-`hit-mod` *required*
+`hit-mod`
  - The modifier used for hitting.
 
 `damage-mod`
@@ -313,10 +313,10 @@ usage: /shape `number-or-name` `hit-mod` `multi-attack`
 
 -:-
 
-`numer-or-name` *required*
+`numer-or-name`
  - The name or index number associated with it (use /var List-Shapes to see a comprehensive list).
  
-`hit-mod` *required*
+`hit-mod`
  - The modifier used for hitting.
 
 `multi-attack` *optional.* Set to true if you possess the `Multiattack` feat. This will adjust the penalty on your secondary attack.
