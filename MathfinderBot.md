@@ -28,6 +28,14 @@ For usability, stats and expressions share a pool of variable names.
 
 *NOTE* — The Pathfinder default character sheet contains a number of both stats and expressions that represent the values you would find on any standard character sheet. Other than class-specific features, you should find the majority of what you need; the goal is minimal setup, while offering the freedom for anyone to customize it how they choose. You can view these values using the `/var` List options.
 
+stats
+
+![stats1](https://user-images.githubusercontent.com/10622391/192097536-4b77e851-29f9-4a46-8336-e846e4ea142f.jpg)
+
+expressions
+
+![expr](https://user-images.githubusercontent.com/10622391/192097538-767b4a7f-2ade-4908-9c08-92fb9f656be1.jpg)
+
 
 ## Rows & Grids
 You can `/eval` stats and expressions individually, but the idea is to use Discords UI features as an interface to your sheet. This is where `Expression Rows` come into play.
@@ -222,15 +230,6 @@ usage: /var `action` `var-name` `value`
 -:-
 
 `action`
-
-stats
-
-![stats1](https://user-images.githubusercontent.com/10622391/192097536-4b77e851-29f9-4a46-8336-e846e4ea142f.jpg)
-
-expressions
-
-![expr](https://user-images.githubusercontent.com/10622391/192097538-767b4a7f-2ade-4908-9c08-92fb9f656be1.jpg)
-
 
  - —`Set-Expression` 
    - `var-name` Name of the expression.
