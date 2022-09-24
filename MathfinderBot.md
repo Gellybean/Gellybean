@@ -81,7 +81,7 @@ usage: /char `mode` `char-name` `game`
 
  - —`List` This will list any created characters you have.
 
- - —`Export` (EXPERIMENTAL) This will export any active character into JSON format.
+ - —`Export` *EXPERIMENTAL.* This will export any active character into JSON format.
 
  - —`Delete` Delete a character.
    - `char-name` The name of the character to delete. This will prompt you for confirmation.
@@ -242,7 +242,7 @@ expressions
  - —`Set-Grid`
    - `var-name` Grid name. The same as Set-Row except you can specify rows instead of expressions.
 
- - —`Set-Craft` (EXPERIMENTAL) This lets you set a craft a mundane item. 
+ - —`Set-Craft` *EXPERIMENTAL.* This lets you set a mundane item to craft. 
    - `var-name` Item name. 
    - `value` DC to craft.
 
