@@ -1,10 +1,6 @@
-- 👋 Hi, I’m @Gellybean
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Mathfinder — Things to do
 
-<!---
-Gellybean/Gellybean is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+ - Add sets of commonly used items (adventuring gear, wondrous, etc) as addable objects to inventory
+ - Improve DM tools:
+   - Direct modifications of player stats
+   - Owner management
