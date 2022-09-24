@@ -278,6 +278,8 @@ usage: /preset-armor `number-or-name` `enhancement`
 `enhancement` *optional*
  - The enhancement bonus (if any) to AC.
 
+![hara](https://user-images.githubusercontent.com/10622391/192118521-60e4c411-a50b-49dd-8793-9ffb6e9bf74d.jpg)
+
 #### Remarks
 This command will apply the stats gained from a specific set of armor (or a shield) to an active character. For shields, this applies a shield bonus to AC and skill check penalties. For armor, this applies an armor bonus to AC, skill check penalties, and max AC gained from Dexterity.
 
