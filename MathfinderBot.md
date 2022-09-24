@@ -223,6 +223,15 @@ usage: /var `action` `var-name` `value`
 
 `action` *required*
 
+stats
+
+![stats1](https://user-images.githubusercontent.com/10622391/192097536-4b77e851-29f9-4a46-8336-e846e4ea142f.jpg)
+
+expressions
+
+![expr](https://user-images.githubusercontent.com/10622391/192097538-767b4a7f-2ade-4908-9c08-92fb9f656be1.jpg)
+
+
  - —`Set-Expression` 
    - `var-name` Name of the expression.
    - `value` Expression to create. 
