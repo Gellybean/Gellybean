@@ -267,6 +267,17 @@ expressions
    - `var-name` The variable name to remove.
 
 
+### **-PRESET-ARMOR-**
+
+usage: /preset-armor `number-or-name`
+
+-:-
+
+`number-or-name`
+ - The name or index number associated with it (use /var List-Armor to see a comprehensive list).
+
+#### Remarks
+This command will apply a specific set of armor (or a shield) to an active character. For shields, this applies a shield bonus to AC and skill check penalties. For armor, this applies an armor bonus to AC, skill check penalties, and max dexterity gained.
 
 
 ### **-PRESET-WEAPON-**
@@ -276,7 +287,7 @@ usage: /preset-weapon `number-or-name` `hit-mod` `damage-mod` `hit-bonus` `dmg-b
 -:-
 
 `number-or-name`
- - The name or index number associated with it (use /var List-Presets to see a comprehensive list).
+ - The name or index number associated with it (use /var List-Weapons to see a comprehensive list).
 
 `hit-mod`
  - The modifier used for hitting.
