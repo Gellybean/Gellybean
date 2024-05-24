@@ -1,1 +1,1 @@
-https://github.com/Gellybean/Mathfinder-Bot
+https://github.com/Gellybean/MathfinderBot
